@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+.left-select {
+
+    float: left; /* Aligning the select list to the left */
+    margin-left: 10px; /* Adding some space between the select list and other elements */
+}</style>
+<body>
+    <form ><center>
+        <fieldset style="width: 350px; background-color: rgb(207, 188, 234);outline-offset: 5px;">
+           
+            <label  style="margin-left: 15px ;"for="Name">Name</label> 
+            <label style="margin-left: 125px ; "for=" LastName">Last name</label>
+            <br>
+            
+            <input  style="border-radius: 15px; padding: 4px;" type="text" placeholder="Enter your name">
+            
+            
+            <input style="border-radius: 15px;"type="text" placeholder="Enter your lname">
+            <br>
+            <label style="margin-left: 15px ;" for="email">Email</label> &nbsp;&nbsp;&nbsp;
+            <label style="margin-left: 125px ;"for=" contact_no">Contact_no</label>
+            <br>
+            <input style="border-radius: 15px;  padding: 4px;"type="email"placeholder="Enter your email">
+       
+            <input style="border-radius: 15px;"type="number" placeholder="Enter your number">
+            <br>
+            <label style="border-radius: 15px;" for="country">Country</label> 
+            <label style="margin-left: 125px ;"for="Message">Message</label><br>
+            <select  class="left-select" style="border-radius: 15px;"id="country" margin="0" padding="0" float="left">
+                <option >select country</option>
+                <option >USA</option>
+                <option >INDIA</option>
+                <option >LONDON</option>
+            </select> 
+            <br>
+        
+            <textarea   style="border-radius: 15px; margin-left: 180px; margin-top:-17px;"cols="10" rows="4" border-radius="15%"></textarea>
+            
+            <br><button>Submit</button>
+        </fieldset>
+    </center> </form>  
+</body>
+</html>
